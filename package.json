@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:open": "cypress open"
   },
   "repository": {
     "type": "git",
@@ -18,7 +19,7 @@
   },
   "homepage": "https://bitbucket.org/nataliavilalva/e2e-seubarriga#readme",
   "devDependencies": {
-    "cypress": "^12.2.0"
+    "cypress": "^12.17.4"
   },
   "dependencies": {
     "faker-br": "^0.4.1"
